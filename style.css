@@ -1,0 +1,318 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 100%;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    gap: 10px;
+
+    #req {
+        text-decoration-line: underline;
+
+    }
+}
+
+#nav_bar {
+    background-color: pink;
+    gap: 50px;
+    width: 100%;
+    padding: 10px 50px;
+
+    #navbarSupportedContent {
+        gap: 30px;
+        color: white;
+        font-weight: bold;
+    }
+
+    #btn {
+        gap: 30px;
+    }
+
+    .btn {
+        padding: 10px 30px;
+    }
+
+    .btn1 {
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        padding: 0px 30px;
+    }
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://assets-v2.scaler.com/assets/academy/svg/banner-background-34136d3a9ddff172e6bae6e3d8283c452231dcda2196b055bfa2e34e222754b7.svg);
+    width: 100%;
+    padding: 150px 50px;
+
+    gap: 100px;
+
+    #one {
+        color: white;
+        gap: 30px;
+
+    }
+
+    #sub {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .btt1 {
+        padding: 10px 30px;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .btt2 {
+        padding: 10px 30px;
+        background-color: white;
+        color: skyblue;
+        border-radius: 5px;
+    }
+
+    #nex {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 5px;
+
+        #sub2 {
+            color: yellow;
+            font-weight: bold;
+        }
+    }
+
+    #two {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        height: 500px;
+        overflow: scroll;
+        border: 2px white solid;
+        border-radius: 15px;
+        color: white;
+        background-color: white;
+
+
+
+        #head {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            padding: 0px 30px;
+            color: black;
+        }
+
+        #inp {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 0px 30px
+        }
+
+        #already {
+            display: flex;
+            flex-direction: row;
+            color: black;
+        }
+        #last{
+            color: gray;
+        }
+
+        .bt {
+            background-color: red;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .bt1 {
+            border: none;
+            color: red;
+        }
+
+        #icon {
+            color: red;
+        }
+
+        *a {
+            text-decoration: none;
+        }
+
+        #line {
+            color: black;
+        }
+
+    }
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 50px;
+    border: 2px white solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(128, 128, 128);
+    margin-top: -130px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+
+    #tit {
+        font-size: 30px;
+    }
+
+    .row1 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 40px;
+
+
+    }
+
+    .row2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 40px;
+
+    }
+
+    #card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px white solid;
+        border-radius: 5px;
+        padding: 10px 30px;
+        font-size: 25px;
+        color: white;
+        overflow: hidden;
+        #barg {
+            font-size:25px;
+            rotate: 45deg;
+            background-color: orange;
+            width: 400px;
+            margin-right: -350px;
+    
+        }
+        #barg1 {
+            font-size:25px;
+            rotate: 45deg;
+            background-color: purple;
+            width: 400px;
+            margin-right: -300px;
+    
+        }
+        #barg2 {
+            font-size:25px;
+            rotate: 45deg;
+            background-color: blue;
+            width: 400px;
+            margin-right: -350px;
+    
+        }
+        #barg3 {
+            font-size:25px;
+            rotate: 45deg;
+            background-color: orange;
+            width: 400px;
+            margin-right: -350px;
+    
+        }
+        #barg4 {
+            font-size:25px;
+            rotate: 45deg;
+            background-color:blue;
+            width: 400px;
+            margin-right: -300px;
+    
+        }
+        #barg5 {
+            font-size:25px;
+            rotate: 45deg;
+            background-color: orange;
+            width: 400px;
+            margin-right: -300px;
+    
+        }
+
+    }
+}
+
+.cards1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 40px;
+
+    #tit {
+        font-size: 30px;
+        padding: 50px 0px;
+    }
+
+    #row_1 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+
+    #row_2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        padding: 20px 150px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        padding: 20px 30px;
+        border: 2px rgba(128, 128, 128, 0.421) solid;
+        gap: 10px;
+        #ques {
+            font-size: 25px;
+        }
+
+        #item_matter {
+            font-size: 20px;
+            color: gray;
+        }
+
+
+    }
+    
+}
